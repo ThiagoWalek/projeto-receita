@@ -160,8 +160,10 @@ div.botao:hover {
     cursor: pointer;
 }
 div.x {
-    margin-left: 78vw;
+    margin-left: 72vw;
     display: inline-block;
+    position: sticky;
+    top: 0;
 }
 div.x > img {
     width: 10vw;
@@ -169,6 +171,14 @@ div.x > img {
 }
 div.x > img:hover {
     cursor: pointer;
+}
+a.control {
+    display: block;
+    width: 100px;
+    display: inline-block;
+}
+main.receita  div.segura{
+    display: inline-block;
 }
 @media (min-width: 320px){
     div.img {
