@@ -160,14 +160,19 @@ div.botao:hover {
     cursor: pointer;
 }
 div.x {
-    margin-left: 72vw;
     display: inline-block;
+    position: absolute;
+    position: fixed;
+    left: 87%;
+    bottom: 84%;
+    /* irei substituir os comandos pelos de cima 
+    margin-left: 72vw;
     position: sticky;
-    top: 0;
+    top: 0; */
 }
 div.x > img {
-    width: 10vw;
-    height: 10vw;
+    width: 10vh;
+    height: 10vh;
 }
 div.x > img:hover {
     cursor: pointer;
