@@ -164,7 +164,7 @@ div.x {
     position: absolute;
     position: fixed;
     left: 87%;
-    bottom: 84%;
+    bottom: 87%;
     /* irei substituir os comandos pelos de cima 
     margin-left: 72vw;
     position: sticky;
@@ -199,5 +199,13 @@ main.receita  div.segura{
     div.imagem {
         width: 350px;
         height: 350px;
+    }
+    div.x {
+        left: 84%;
+
+    }
+    div.x > img {
+        width: 9vh;
+        height: 9vh;
     }
 }
