@@ -73,7 +73,7 @@ header {
     position: sticky;
     top: 0;
 }
-header > nav > a {
+header > nav > a.elementos {
     text-align: center;
     text-decoration: none;
     font-size: 2em;
@@ -82,7 +82,7 @@ header > nav > a {
     background-color: var(--cor2);
     transition-duration: 0.8s;
 }
-header > nav > a:hover {
+header > nav > a.elementos:hover {
     background-color: black;
     color: var(--cor2);
     cursor: pointer;
@@ -158,29 +158,23 @@ div.botao:hover {
     color: #FFD700;
     background-color: #4F2E21;
     cursor: pointer;
+    border: 1px solid whitesmoke;
 }
 div.x {
     display: inline-block;
-    position: absolute;
-    position: fixed;
-    left: 87%;
-    bottom: 87%;
-    /* irei substituir os comandos pelos de cima 
-    margin-left: 72vw;
     position: sticky;
-    top: 0; */
+    background-color: rgba(0, 0, 0, 0);
 }
-div.x > img {
-    width: 10vh;
-    height: 10vh;
-}
+
 div.x > img:hover {
     cursor: pointer;
 }
 a.control {
-    display: block;
+    display: relative;
     width: 100px;
-    display: inline-block;
+    position: fixed;
+    left: 65%;
+    bottom: 87%;
 }
 main.receita  div.segura{
     display: inline-block;
@@ -201,8 +195,7 @@ main.receita  div.segura{
         height: 350px;
     }
     div.x {
-        left: 84%;
-
+        margin: 0px 0px 0px 15vw;
     }
     div.x > img {
         width: 9vh;
